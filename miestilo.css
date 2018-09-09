@@ -1,7 +1,7 @@
 
 <style>
   body{
-        padding: 10%;
+        padding: 20%;
         background-color: silver
       }
   .header{
@@ -113,90 +113,28 @@
           color:#E77500;
           
               }
-          .main {
-    background-color: silver; 
-    list-style-type: none;
-    text-align: center;
-    margin-left: 10%;
-    padding-right:0%;
+         .tablex{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+tr {
+   
+    padding-bottom: 50px;
+    
+  }
+
+   th {
+   
+    text-align: left;
+    
+  }
+  td{
+    background-color:silver;
     border-radius: 5px;
-    box-sizing: border-box;
-
-    }
-
-.sidebar {
-    width: 10%;
-    font-size: 2%;
-    padding: 1%;
-    display:table-cell;
-    box-sizing: border-box;
-    float: left;
-         }
-
-    .txt-center {
-      text-align: center;
-    }
-    .hide {
-      display: none;
-    }
-    .clear {
-      float: none;
-      clear: both;
-    }
-    .rating {
-        width: 90px;
-        unicode-bidi: bidi-override;
-        direction: rtl;
-        text-align: center;
-        position: relative;
-    }
-    .rating label {
-        float: right;
-        display: inline;
-        padding: 0;
-        margin: 0;
-        position: relative;
-        width: 1.1em;
-        cursor: pointer;
-        color: #000;
-    }
-    .rating > label:hover,
-    .rating > label:hover ~ label,
-    .rating > input.radio-btn:checked ~ label {
-        color: transparent;
-    }
-    .rating > label:hover:before,
-    .rating > label:hover ~ label:before,
-    .rating > input.radio-btn:checked ~ label:before,
-    .rating > input.radio-btn:checked ~ label:before {
-        content: "\2605";
-        position: absolute;
-        left: 0;
-        color: #FFD700;
-    }
-    .rating {
-    unicode-bidi: bidi-override;
-    direction: rtl;
-    font-size: 30px;
 }
-.rating span.star {
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    display: inline-block;
-}
-.rating span.star:hover {
-    cursor: pointer;
-}
-/*.rating span.star:before {
-    content: "\f006";
-    padding-right: 5px;
-    color: #777777;
-}*/
-.rating span.star::before,
-.rating span.star: ~ span.star:before {
-    content: "\f005";
-    color: #e3cf7a;
+    
 }
 .containerr {
     width: 100%; /* Full width */
@@ -217,6 +155,21 @@
 .js {width: 35%; background-color: #FF8000;} 
 .php {width: 20%; background-color: #FF8000;} 
 }
-1
+
+table {
+    font-family: arial, sans-serif;
+    width: 99%;
+    float: left;
+}
+
+td, th {
+    text-align: left;
+    padding: 5px;
+
+}
+.clearfix{
+    clear: both;
+
+}
 
 
