@@ -119,20 +119,17 @@
     width: 100%;
     
 }
-tr {
-   
-    padding-bottom: 50px;
-    
-  }
 
-   th {
+   .tablex th {
    
     text-align: left;
+    padding-right: 30px;
     
   }
-  td{
+  .tablex td{
     background-color:silver;
     border-radius: 5px;
+    text-align: left;
 }
     
 }
@@ -156,20 +153,27 @@ tr {
 .php {width: 20%; background-color: #FF8000;} 
 }
 
-table {
+.tablex2 {
     font-family: arial, sans-serif;
-    width: 99%;
+
+    width: 100%;
     float: left;
 }
 
-td, th {
+.tablex2 td, th {
     text-align: left;
-    padding: 5px;
+    padding: 30px;
+    text-align: center;
 
 }
 .clearfix{
     clear: both;
 
 }
+.s1{
+    font-family: arial, sans-serif;
+    font-size: 25px;
+    color: black;
 
+}
 
