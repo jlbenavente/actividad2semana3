@@ -1,8 +1,8 @@
 
 <style>
   body{
-        padding: 20%;
-        background-color: silver
+        padding: 50%;
+        background-color: silver;
       }
   .header{
       margin-top: 0;
@@ -115,21 +115,27 @@
               }
          .tablex{
     font-family: arial, sans-serif;
-    border-collapse: collapse;
     width: 100%;
-    
+    margin: 5px;
 }
 
    .tablex th {
    
     text-align: left;
-    padding-right: 30px;
     
+    text-align: left;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
   }
   .tablex td{
     background-color:silver;
     border-radius: 5px;
+    
     text-align: left;
+    padding: 10px;
+
+    
 }
     
 }
@@ -160,10 +166,15 @@
     float: left;
 }
 
-.tablex2 td, th {
-    text-align: left;
-    padding: 30px;
+.tablex2 th{
     text-align: center;
+    padding: 30px;
+
+}
+.tablex2 td{
+    
+    padding: 30px;
+    text-align: left;
 
 }
 .clearfix{
@@ -177,3 +188,30 @@
 
 }
 
+.hobbie ul li{
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    padding: 10px;
+    background-color: #B22222;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    top:-2px;
+
+
+}
+
+p.thicker {
+    font-weight: 900;
+}
+
+.tablex3 td{
+    padding-left: 10vw;
+}
+.checked {
+    color: orange;
+}
+.nochecked{
+    color: silver;
+}
